@@ -2,11 +2,33 @@
 <html>
   <head>
     <link rel="stylesheet" href="style.css">
+    <style>
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+</style>
   </head>
   <body>
     <h1>Once-Low Sugar Bakery menu</h1>
 
-   
+   <div class="grid-container">
+  <div><a href="Flan-gato.html">Flan Gateau</a></div>
+  <div><a href="chocolate-roll.html">Chocolate Roll</a></div>
+  <div><a href="lemon-chiffon.html">Lemon Chiffon</a></div>  
+  <div><a href="quail-egg-floss-bun.html">Quail egg floss bun</a></div>
+
+</div>
     <a href="Flan-gato.html">Flan Gateau</a>
     <br>
     <a href="chocolate-roll.html">Chocolate Roll</a>
